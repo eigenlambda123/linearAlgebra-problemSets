@@ -46,17 +46,18 @@ This repository will grow gradually as I progress through the book. Some section
 
 ---
 
-## Covered Topics (in progress)
+## Covered Topics Chapter (in progress)
 
-* [x] 1.1 Basics of matrices and vectors
-* [ ] 1.2 Matrix addition and scalar multiplication
-* [ ] 2.1 Gaussian elimination
-* [ ] 2.2 LU decomposition
-* [ ] 3.1 Vector spaces
-* [ ] 3.2 Span and linear combinations
-* [ ] 4.x Orthogonality and projections
-* [ ] 5.x Eigenvalues and eigenvectors
-* [ ] 6.x Linear transformations and matrix representations
+* [x] 1 Introduction to Vectors
+* [ ] 2 Solving Linear Equations
+* [ ] 3 Vector Spaces and Subspaces
+* [ ] 4 Othogonality
+* [ ] 5 Determinants
+* [ ] 6 Eigenvalues and eigenvectors
+* [ ] 7 The Singular Value Decomposition (SVD)
+* [ ] 8 Linear Transformations
+* [ ] 9 Complex Vectors and Matrices
+* [ ] 10 Applications
 
 ---
 
@@ -64,8 +65,7 @@ This repository will grow gradually as I progress through the book. Some section
 
 * Markdown + Git for clean version control
 * LaTeX (within Markdown and notebooks) for math notation
-* Python (NumPy) in Jupyter notebooks for computation and visualization
-* Diagrams drawn manually or with graphing tools
+* Python in Jupyter notebooks for computation and visualization
 
 ---
 

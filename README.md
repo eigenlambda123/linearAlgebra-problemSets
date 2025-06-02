@@ -16,10 +16,10 @@ Each folder corresponds to a major chapter, and within it are subfolders or file
 
 ```
 linearAlgebra-problemSets/
-├── 01_Matrix_and_Vector_Operations/
+├── 01_Introduction_to_Vectors/
 │   ├── README.md
-│   ├── 1.1_Basics_of_Matrices_and_Vectors.ipynb
-│   ├── 1.2_Matrix_Addition_and_Scalar_Multiplication.ipynb
+│   ├── 1.1_Vectors and Linear Combinations.ipynb
+│   ├── 1.2_Lengths and Dot Products.ipynb
 │   ├── notes.md
 │   └── images/
 ├── ...
@@ -36,7 +36,7 @@ Most problems are:
 * Then typed in Markdown or Jupyter notebooks for future reference
 * Accompanied by concise notes explaining **why** and **how** the solution works
 
-The goal is **not speed**, but **mastery**—this is part of my long-term technical foundation building under my [Project10X Linear Algebra](#) effort.
+The goal is **not speed**, but **mastery**—this is part of my long-term technical foundation building under my [Project10X Linear Algebra](https://github.com/eigenlambda123/Project10X-Linear-Algebra.git) effort.
 
 ---
 

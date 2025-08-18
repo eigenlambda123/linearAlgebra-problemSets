@@ -12,7 +12,7 @@ All problems and theory are taken from:
 
 ## Structure & Organization
 
-Each folder corresponds to a major chapter, and within it are subfolders or files named by section numbers, following Strang’s book organization (e.g., `1.1`, `1.2`):
+Each folder corresponds to a major chapter, and within it are subfolders or files named by section numbers, following Strang’s book organization:
 
 ```
 linearAlgebra-problemSets/
@@ -39,9 +39,8 @@ The goal is **not speed**, but **mastery**—this is part of my long-term techni
 
 This repository will grow gradually as I progress through the book. Some sections are under development or may only contain partial solutions.
 
----
 
-## Covered Topics Chapter (in progress)
+### Covered Topics Chapter
 
 * [x] 1 Introduction to Vectors
 * [x] 2 Solving Linear Equations
@@ -56,15 +55,11 @@ This repository will grow gradually as I progress through the book. Some section
 
 ---
 
-## Tools Used
+## Tools Used & License
 
 * Markdown + Git for clean version control
 * LaTeX (within Markdown and notebooks) for math notation
 * Python in Jupyter notebooks for computation and visualization
-
----
-
-## License
 
 This project is for educational and personal study purposes. Original problems and content are copyrighted by Gilbert Strang.
 

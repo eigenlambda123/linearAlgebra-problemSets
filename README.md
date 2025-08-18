@@ -6,7 +6,7 @@ This repository contains my organized solutions and study notes for *Linear Alge
 
 All problems and theory are taken from:
 **Gilbert Strang, Introduction to Linear Algebra, 5th Edition**
-🔗 [https://math.mit.edu/\~gs/linearalgebra/](https://math.mit.edu/~gs/linearalgebra/)
+[https://math.mit.edu/\~gs/linearalgebra/](https://math.mit.edu/~gs/linearalgebra/)
 
 ---
 
@@ -17,11 +17,6 @@ Each folder corresponds to a major chapter, and within it are subfolders or file
 ```
 linearAlgebra-problemSets/
 ├── 01_Introduction_to_Vectors/
-│   ├── README.md
-│   ├── 1.1_Vectors and Linear Combinations.ipynb
-│   ├── 1.2_Lengths and Dot Products.ipynb
-│   ├── notes.md
-│   └── images/
 ├── ...
 └── README.md
 ```
@@ -49,8 +44,8 @@ This repository will grow gradually as I progress through the book. Some section
 ## Covered Topics Chapter (in progress)
 
 * [x] 1 Introduction to Vectors
-* [ ] 2 Solving Linear Equations
-* [ ] 3 Vector Spaces and Subspaces
+* [x] 2 Solving Linear Equations
+* [x] 3 Vector Spaces and Subspaces
 * [ ] 4 Othogonality
 * [ ] 5 Determinants
 * [ ] 6 Eigenvalues and eigenvectors
@@ -69,6 +64,10 @@ This repository will grow gradually as I progress through the book. Some section
 
 ---
 
-## 📜 License
+## License
 
 This project is for educational and personal study purposes. Original problems and content are copyrighted by Gilbert Strang.
+
+---
+
+_Created and Maintained by RM Villa._

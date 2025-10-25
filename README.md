@@ -17,6 +17,8 @@ Each folder corresponds to a major chapter, and within it are subfolders or file
 ```
 linearAlgebra-problemSets/
 ├── 01_Introduction_to_Vectors/
+├── 02_Solving_Linear_Equations/
+├── 03_Vector_Spaces_and_Subspaces/
 ├── ...
 └── README.md
 ```

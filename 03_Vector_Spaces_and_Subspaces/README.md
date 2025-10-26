@@ -32,10 +32,10 @@ This chapter develops the idea of **vector spaces** and their **subspaces**, int
 
 ### 3.3 The Complete Solution to $A\mathbf{x} = \mathbf{b}$
 
-- General solution = **particular solution** + **nullspace solution**.  
-  $$
-  \mathbf{x} = \mathbf{x}_p + \mathbf{x}_n
-  $$
+- General solution = **particular solution** + **nullspace solution**.
+   
+  $$\mathbf{x} = \mathbf{x}_p + \mathbf{x}_n$$
+  
 	- $\mathbf{x}_p$: a particular solution of $A\mathbf{x} = \mathbf{b}$.  
 	- $\mathbf{x}_n$: any solution in the nullspace of $A$.  
 

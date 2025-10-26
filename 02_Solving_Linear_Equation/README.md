@@ -7,21 +7,7 @@ This chapter focuses on systematic methods for solving **linear systems**, **mat
 ### 2.1 Vectors and Linear Equations
 
 - A system of linear equations can be written compactly using vectors and matrices.  
-- Example:
-  
-  $$
-  \begin{cases} 2x + y = 5 \\ x - y = 1 \end{cases}
-  $$
-  
-  becomes
-  
-  $$
-  A \mathbf{x} = \mathbf{b}, \quad 
-  A = \begin{bmatrix} 2 & 1 \\ 1 & -1 \end{bmatrix}, \quad 
-  \mathbf{x} = \begin{bmatrix} x \\ y \end{bmatrix}, \quad
-  \mathbf{b} = \begin{bmatrix} 5 \\ 1 \end{bmatrix}
-  $$
-  
+
 - Key insight: Solving equations = finding a vector $\mathbf{x}$ in $\mathbb{R}^n$ such that $A\mathbf{x} = \mathbf{b}$.  
 - Multiple perspectives:  
 	- **Row picture**: Intersections of lines/planes.  

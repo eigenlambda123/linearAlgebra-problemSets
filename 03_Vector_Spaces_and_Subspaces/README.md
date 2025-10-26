@@ -20,10 +20,10 @@ This chapter develops the idea of **vector spaces** and their **subspaces**, int
 
 ### 3.2 The Nullspace of $A$
 
-- **Nullspace ($N(A)$)**: The set of all solutions to $A\mathbf{x} = 0$.  
-  $$
-  N(A) = \{ \mathbf{x} \in \mathbb{R}^n : A\mathbf{x} = 0 \}
-  $$
+- **Nullspace ($N(A)$)**: The set of all solutions to $A\mathbf{x} = 0$.
+  
+  $$N(A) = \{ \mathbf{x} \in \mathbb{R}^n : A\mathbf{x} = 0 \}$$
+
 - Always a subspace of $\mathbb{R}^n$.  
 - Finding $N(A)$: Solve the homogeneous system $Ax=0$ using elimination.  
 - Dimension of $N(A)$ = **number of free variables**.  
@@ -46,9 +46,8 @@ This chapter develops the idea of **vector spaces** and their **subspaces**, int
 ### 3.4 Independence, Basis, and Dimension
 
 - **Linear Independence**: Vectors $\mathbf{v}_1, \dots, \mathbf{v}_k$ are independent if:
-  $$
-  c_1 \mathbf{v}_1 + c_2 \mathbf{v}_2 + \cdots + c_k \mathbf{v}_k = 0
-  $$
+  
+  $$c_1 \mathbf{v}_1 + c_2 \mathbf{v}_2 + \cdots + c_k \mathbf{v}_k = 0$$
   implies all $c_i = 0$.  
 
 - **Basis**: A set of independent vectors that span the space.  

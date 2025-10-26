@@ -40,21 +40,5 @@ This chapter introduces the fundamental building blocks of linear algebra: **vec
 
 - A **matrix** is a rectangular array of numbers, written in rows and columns.  
 - A matrix represents a **linear transformation** from vectors to vectors.  
-- Matrix-vector multiplication combines linear combinations in a systematic way:
-
-  $$A \mathbf{x} = 
-  \begin{bmatrix}
-  a_{11} & a_{12} \\
-  a_{21} & a_{22}
-  \end{bmatrix}
-  \begin{bmatrix}
-  x_1 \\ x_2
-  \end{bmatrix}
-  =
-  \begin{bmatrix}
-  a_{11}x_1 + a_{12}x_2 \\
-  a_{21}x_1 + a_{22}x_2
-  \end{bmatrix}$$
-  
 - **Columns of $A$** show how basis vectors are transformed.
 

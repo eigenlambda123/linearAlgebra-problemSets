@@ -20,17 +20,14 @@ This chapter introduces the fundamental building blocks of linear algebra: **vec
 ### 1.2 Lengths and Dot Product
 
 - **Length (Norm)** of a vector $\mathbf{v} = (v_1, v_2, \dots, v_n)$:
-  $$
-  \|\mathbf{v}\| = \sqrt{v_1^2 + v_2^2 + \cdots + v_n^2}
-  $$
+  $$\|\mathbf{v}\| = \sqrt{v_1^2 + v_2^2 + \cdots + v_n^2}$$
+  
 - **Dot Product**: For vectors $\mathbf{u}, \mathbf{v} \in \mathbb{R}^n$,
-  $$
-  \mathbf{u} \cdot \mathbf{v} = u_1v_1 + u_2v_2 + \cdots + u_nv_n
-  $$
+  $$\mathbf{u} \cdot \mathbf{v} = u_1v_1 + u_2v_2 + \cdots + u_nv_n$$
+  
 - Connection:  
-  $$
-  \mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\| \|\mathbf{v}\| \cos \theta
-  $$
+  $$\mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\| \|\mathbf{v}\| \cos \theta$$
+  
   where $\theta$ is the angle between them.
 
 - Applications:  
@@ -45,8 +42,7 @@ This chapter introduces the fundamental building blocks of linear algebra: **vec
 - A matrix represents a **linear transformation** from vectors to vectors.  
 - Matrix-vector multiplication combines linear combinations in a systematic way:
 
-  $$
-  A \mathbf{x} = 
+  $$A \mathbf{x} = 
   \begin{bmatrix}
   a_{11} & a_{12} \\
   a_{21} & a_{22}
@@ -58,8 +54,7 @@ This chapter introduces the fundamental building blocks of linear algebra: **vec
   \begin{bmatrix}
   a_{11}x_1 + a_{12}x_2 \\
   a_{21}x_1 + a_{22}x_2
-  \end{bmatrix}
-  $$
+  \end{bmatrix}$$
   
 - **Columns of $A$** show how basis vectors are transformed.
 

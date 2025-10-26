@@ -7,20 +7,19 @@ This chapter focuses on systematic methods for solving **linear systems**, **mat
 ### 2.1 Vectors and Linear Equations
 
 - A system of linear equations can be written compactly using vectors and matrices.  
-- Example:  
-  $$
-  \begin{cases}
+- Example:
+  
+  $$\begin{cases}
   2x + y = 5 \\
   x - y = 1
-  \end{cases}
-  $$
-  becomes  
-  $$
-  A \mathbf{x} = \mathbf{b}, \quad 
+  \end{cases}$$
+  
+  becomes
+  
+  $$A \mathbf{x} = \mathbf{b}, \quad 
   A = \begin{bmatrix} 2 & 1 \\ 1 & -1 \end{bmatrix}, \quad 
   \mathbf{x} = \begin{bmatrix} x \\ y \end{bmatrix}, \quad
-  \mathbf{b} = \begin{bmatrix} 5 \\ 1 \end{bmatrix}
-  $$
+  \mathbf{b} = \begin{bmatrix} 5 \\ 1 \end{bmatrix}$$
 - Key insight: Solving equations = finding a vector $\mathbf{x}$ in $\mathbb{R}^n$ such that $A\mathbf{x} = \mathbf{b}$.  
 - Multiple perspectives:  
 	- **Row picture**: Intersections of lines/planes.  
@@ -50,9 +49,9 @@ This chapter focuses on systematic methods for solving **linear systems**, **mat
   where $A'$ is the matrix after one elimination step.  
 
 - Successive elimination:
-  $$
-  E_k \cdots E_2 E_1 A = U
-  $$
+  
+  $$E_k \cdots E_2 E_1 A = U$$
+  
   where $U$ is upper triangular.  
 
 - Connects elimination directly with matrix multiplication.
@@ -74,10 +73,10 @@ This chapter focuses on systematic methods for solving **linear systems**, **mat
 
 ### 2.5 Inverse Matrices
 
-- A matrix $A$ is invertible if there exists $A^{-1}$ such that:  
-  $$
-  AA^{-1} = A^{-1}A = I
-  $$
+- A matrix $A$ is invertible if there exists $A^{-1}$ such that:
+  
+  $$AA^{-1} = A^{-1}A = I$$
+
 - Conditions:  
 	- Square matrix.  
 	- Nonzero determinant.  
@@ -88,9 +87,10 @@ This chapter focuses on systematic methods for solving **linear systems**, **mat
 
 ### 2.6 Factorization $A = LU$
 
-- Any invertible matrix $A$ can be factored as:$$
-  A = LU
-  $$
+- Any invertible matrix $A$ can be factored as:
+
+$$A = LU$$
+
 	- $L$: lower triangular (multipliers from elimination).  
 	- $U$: upper triangular (result of elimination).  
 

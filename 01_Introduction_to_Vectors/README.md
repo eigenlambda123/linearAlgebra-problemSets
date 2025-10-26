@@ -11,10 +11,7 @@ This chapter introduces the fundamental building blocks of linear algebra: **vec
     - In 2D: $\mathbf{v} = (v_1, v_2)$  
     - In 3D: $\mathbf{v} = (v_1, v_2, v_3)$
 - **Linear Combination**: A weighted sum of vectors using scalar coefficients.  
-  - Example:  
-$$
-    c_1 \mathbf{v}_1 + c_2 \mathbf{v}_2 + \cdots + c_k \mathbf{v}_k
-    $$
+
 - **Span**: The set of all possible linear combinations of given vectors.  
 - Key Idea: Linear algebra studies what vectors can be built from combinations of other vectors.
 
@@ -45,16 +42,9 @@ $$
 ### 1.3 Matrices
 
 - A **matrix** is a rectangular array of numbers, written in rows and columns.  
-	- Example:  
-$$
-    A =
-    \begin{bmatrix}
-    a_{11} & a_{12} \\
-    a_{21} & a_{22}
-    \end{bmatrix}
-    $$
 - A matrix represents a **linear transformation** from vectors to vectors.  
 - Matrix-vector multiplication combines linear combinations in a systematic way:
+
   $$
   A \mathbf{x} = 
   \begin{bmatrix}
@@ -70,5 +60,6 @@ $$
   a_{21}x_1 + a_{22}x_2
   \end{bmatrix}
   $$
+  
 - **Columns of $A$** show how basis vectors are transformed.
 

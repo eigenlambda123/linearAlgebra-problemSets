@@ -9,10 +9,7 @@ This chapter focuses on systematic methods for solving **linear systems**, **mat
 - A system of linear equations can be written compactly using vectors and matrices.  
 - Example:
   
-  $$\begin{cases}
-  2x + y = 5 \\
-  x - y = 1
-  \end{cases}$$
+  $$\begin{cases} 2x + y = 5 \\ x - y = 1 \end{cases}$$
   
   becomes
   
